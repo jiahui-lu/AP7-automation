@@ -1,0 +1,10 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+apply from: rootProject.file("dependencies.gradle")
+apply from: rootProject.file("testng.gradle")
+
+group 'com.promethean.appium'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
