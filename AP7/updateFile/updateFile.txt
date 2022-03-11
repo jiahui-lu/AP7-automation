@@ -1,0 +1,2 @@
+This folder is save the update file,download from URL.
+Please don't delete this file.

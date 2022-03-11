@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_adhoctest">
+    <test name="test_adhoctest" enabled="true" preserve-order="true">
+        <classes>
+            <class name="com.prometheanworld.appium.adhoc.AdHocTest"/>
+            <class name="com.prometheanworld.appium.androiduser.AndroidUserTest"/>
+            <class name="com.prometheanworld.appium.apps.AppsTest"/>
+            <class name="com.prometheanworld.appium.certtest.CertificationAppTest"/>
+            <class name="com.prometheanworld.appium.energystar.EnergyStarTest"/>
+            <class name="com.prometheanworld.appium.launcher.LockerAppTest"/>
+            <class name="com.prometheanworld.appium.launcher.MenuAppTest"/>
+            <class name="com.prometheanworld.appium.launcher.MenuTest"/>
+            <class name="com.prometheanworld.appium.mdm.MDMTest"/>
+            <class name="com.prometheanworld.appium.otaupdatetest.OtaLocalUpdateTest"/>
+            <class name="com.prometheanworld.appium.reboottest.RebootRecycleTest"/>
+            <class name="com.prometheanworld.appium.recentApps.RecentAppsTest"/>
+            <class name="com.prometheanworld.appium.schemaSettings.SchemaSettingsTest"/>
+            <class name="com.prometheanworld.appium.settingsconfiguration.generateSettingFile"/>
+            <class name="com.prometheanworld.appium.settingsconfiguration.SettingsConfigurationTest"/>
+            <class name="com.prometheanworld.appium.updatetest.UpdateAppTest"/>
+            <class name="com.prometheanworld.appium.workplace.WorkPlaceTest"/>
+            <class name="com.prometheanworld.appium.OCType.OCTypeTest"/>
+            <class name="com.prometheanworld.appium.Panel.App.GooglePlayStore"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingApp.DisplaySetting.AppIconDisplaySetting"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingApp.DisplaySetting.Source"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingApp.SecuritySetting.LockScreenSetting"/>
+            <class name="com.prometheanworld.appium.Panel.Thirdpartysupport.Remotecommandcontrol.ADB"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingApp.DisplaySetting.StandbyandsleeptimerTest"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SystemBasicFunction.LockerTest"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingonLocker.Brightness.BrightnessTest"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingonLocker.Other.OtherTest"/>
+            <class name="com.prometheanworld.appium.Panel.VersionUpdate.OTAUpdate"></class>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SystemBasicFunction.MultiWindows"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingApp.DisplaySetting.Wallpaper"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SystemBasicFunction.UnifiedMenu"/>
+            <class name="com.prometheanworld.appium.Panel.SystemFunction.SettingApp.SystemSettings.PhysicalKeyboard"/>
+            <!--        <class name="com.prometheanworld.appium.HelloWorld.HelloWorldTest"/>-->
+        </classes>
+    </test>
+</suite>
