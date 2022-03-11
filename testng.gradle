@@ -1,0 +1,17 @@
+test {
+    def argsParam = ""
+    try {
+        argsParam = getProperty("args")
+        println("args is: $argsParam")
+    } catch (Exception ignored) {
+        println("args is empty")
+    }
+    systemProperty("AUTOMATION_TEST_ARGS", argsParam)
+    useTestNG() {
+        suites "testng.xml"
+    }
+}
+
+afterEvaluate {
+    compileKotlin.dependsOn clean
+}

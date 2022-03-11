@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_AndroidSettings">
+    <test name="AndroidSettings" enabled="true" preserve-order="true">
+        <classes>
+            <class name="com.prometheanworld.AP9.Firmware.TeacherApps.ScreenCaptureTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.Keyboards"/>
+            <class name="com.prometheanworld.AP9.SpecialFeatures.UpdateTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.SignInOut"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.LockerApp"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.MenuApplicationIcons.OpenApps"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.MenuApplicationIcons.PinApps"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.MenuApplicationIcons.LongpressMenu"/>
+            <class name="com.prometheanworld.AP9.Firmware.AppServiceIntegration"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbarTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.AbstractionTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.AVISettings.EnergyStarTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.MenuApplicationIconsTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.MenuFocus"/>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.UserAccess"/>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.System.ImportExportConfigurationTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Display.Menu"/>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Display.ProximitySensor"/>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Display.StandbySleepTimer"/>
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.EULA" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettingsTest"></class>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.NetworkInternet.WOL" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Display.EnableApps" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Display.HomeSource" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Apps" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.SystemTest" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.NetworkInternetTest" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.DateAndTime" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps._3rdPartyApps.AdobeReaderApp" />
+            <class name="com.prometheanworld.AP9.Firmware.PanelButtons.PanelButtonsTest" />
+            <class name="com.prometheanworld.AP9.Firmware.PanelButtons.RemoteButtonsTest" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps._3rdPartyApps.Camara" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.Files" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.SourceSwitch" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.Locking" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.MenuTaskbar.Toast" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.ChromiumTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.MultipleWindowTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Display.EnableWindowing" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.LanguageInput.VirtualKeyboard" />
+            <class name="com.prometheanworld.AP9.Firmware.BootSequence" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.OOBE" />
+            <class name="com.prometheanworld.AP9.Firmware.SystemApps.Update" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.Accessibility" />
+            <class name="com.prometheanworld.AP9.Firmware.AndroidSettings.ConnectedDevices" />
+            <class name="com.prometheanworld.AP9.Firmware.TeacherApps.ScreenShareTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.TeacherApps.TimerTest"/>
+            <class name="com.prometheanworld.AP9.Firmware.TeacherApps.SpinnerTest"/>
+        </classes>
+    </test>
+</suite>

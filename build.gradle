@@ -1,0 +1,20 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.32' apply false
+    id 'com.github.sherter.google-java-format' version '0.7.1' // For source formatting checks
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://artifactory.prometheanjira.com/artifactory/promethean-release'
+        }
+    }
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
